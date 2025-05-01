@@ -1,0 +1,3 @@
+﻿  Employee.cpp
+C:\Users\משתמש\Documents\יד\C++\שב\homework_lesson6\homework_lesson6\Employee.cpp(10,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\משתמש\Documents\יד\C++\שב\homework_lesson6\homework_lesson6\Employee.cpp(64,12): fatal  error C1075: '{': no matching token found

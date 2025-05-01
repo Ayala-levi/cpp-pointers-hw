@@ -25,5 +25,33 @@
 
 ## הערה
  ודא שמותקן במערכת שלך קומפיילר C++ (כגון g++).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Homework - Generic Pointers and Function Pointers in C++
 
+## Description
+
+This project contains the solutions to my homework assignment on the topic of generic pointers (`void*`) and function pointers in the C++ programming language. The code demonstrates various uses of these concepts, as presented in the attached worksheet.
+
+## Project Contents
+
+The project includes the following files:
+
+* **source.cpp** - The C++ source code file containing the solutions to the different exercises.
+* **README.md** - This file, providing a general overview of the project.
+* **Employee.cpp** - The C++ source code file defining the `Employee` class.
+* **מצביע גנרי ומצביעים לפונקציות** - A digital copy of the worksheet.
+
+## Explanations and Main Features
+
+The code demonstrates the following topics:
+
+* **Generic Pointers (`void*`)**: Using pointers that can point to any data type.
+* **Function Pointers**: Using pointers to store the addresses of functions and call them through the pointer.
+* **Using `qsort`**: Demonstration of sorting an array of `Employee` objects based on different criteria (salary, seniority, and name) using comparison functions passed as arguments to `qsort`. The comparison functions are defined as static functions within the `Employee` class and accept generic pointers (`const void*`).
+* **Using `bsearch`**: Demonstration of binary search in a sorted array of `Employee` objects using the `bsearch` function. The appropriate comparison function (by name) is passed as an argument to `bsearch`.
+* **`Employee` Class**: Definition of a class representing an employee with name, salary, and seniority fields. The class includes various static comparison functions used for sorting and searching.
+
+## Note
+
+Ensure that a C++ compiler (such as g++) is installed on your system.
 
